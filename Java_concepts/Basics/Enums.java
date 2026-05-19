@@ -1,6 +1,8 @@
 package Basics;
 
 // Enum -> Enumeration
+// Enums  is a special data type in programming used to define a collection of related, fixed constants. Instead of using hard-to-remember numbers or prone-to-typo strings, you assign meaningful names to represent a specific set of choices (like
+// days of the week or user roles)
 
 enum Status{
  Running , Failed , Pending , Success
