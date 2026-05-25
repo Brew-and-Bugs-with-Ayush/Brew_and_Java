@@ -9,6 +9,7 @@ public class Linear_Search {
         int[] arr = new int[n];
         int flag = 0;
 
+        // iterating over all elements to find and it gows linearly
         for(int i = 0 ; i<n ; i++){
             arr[i] = sc.nextInt();
         }
