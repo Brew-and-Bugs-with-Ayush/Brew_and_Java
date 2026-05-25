@@ -8,10 +8,13 @@ public class Binary_Search {
 
         int[] arr = {2, 5, 8, 12, 16, 23, 38, 45, 56, 72};
 
+        // Search space starts from first index to last index
         int low = 0;
         int high = arr.length-1;
 
         while(low <= high){
+
+            // Find middle index safely without integer overflow issue that caused by -> mid = (low + high) / 2;
         int mid = low + (high - low) / 2;
             if(arr[mid] == target){
                 System.out.println("element found at: " + mid);
